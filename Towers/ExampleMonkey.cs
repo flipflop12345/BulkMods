@@ -1,15 +1,17 @@
 ﻿using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
-using BulkMods.Display.ExampleMonkeyDisplay;
+using BulkMods.Display.ExampleMonkeyDisplayfldr;
 using Il2CppAssets.Scripts.Models.Towers;
+using Il2CppAssets.Scripts.Models.Towers.Projectiles.Behaviors;
 using Il2CppAssets.Scripts.Models.TowerSets;
+using Il2CppAssets.Scripts.Unity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkMods
+namespace BulkMods.Towers
 {
     internal class ExampleMonkey : ModTower
     {

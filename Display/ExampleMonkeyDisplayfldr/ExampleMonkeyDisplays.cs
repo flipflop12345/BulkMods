@@ -1,6 +1,8 @@
 ﻿using BTD_Mod_Helper.Api.Display;
+using BTD_Mod_Helper.Api.Enums;
 using BTD_Mod_Helper.Api.Towers;
 using BTD_Mod_Helper.Extensions;
+using BulkMods.Bloons;
 using Il2CppAssets.Scripts.Unity.Display;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BulkMods.Display.ExampleMonkeyDisplay
+namespace BulkMods.Display.ExampleMonkeyDisplayfldr
 {
     internal class ExampleMonkeyDisplay : ModDisplay
     {
@@ -36,4 +38,6 @@ namespace BulkMods.Display.ExampleMonkeyDisplay
             Set2DTexture(node, "ExampleProjectileDisplay"); //Change "ExampleProjectileDisplay" With the name of your texture
         }
     }
+
+    
 }

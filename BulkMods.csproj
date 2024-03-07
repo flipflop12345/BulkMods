@@ -12,6 +12,10 @@
     <ItemGroup>
         <Content Include=".github\workflows\build.yml" />
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Upgrades\ExampleMonkeyUpgrades\ExampleMonkeyTopUpgrades\" />
+      <Folder Include="Upgrades\ExampleMonkeyUpgrades\ExampleMonkeyBottomUpgrades\" />
+    </ItemGroup>
 
     <Import Project="..\btd6.targets" />
 </Project>
